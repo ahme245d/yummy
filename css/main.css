@@ -1,0 +1,85 @@
+
+.container{
+    width: 80%;
+    margin: auto;
+  
+}
+.images{
+    position: relative;
+    overflow: hidden;
+    
+}
+.images img{
+    height: 200px;
+    border-radius: 10px;
+}
+.inputee{
+    display: none;
+}
+.layer{
+padding: 40px;
+display: flex;
+align-items: center;
+border-radius: 10px;
+position: absolute;
+top: 150%;
+left: 10;
+right: 10;
+bottom: 1;
+background-color: rgba(255, 255, 255, 0.784);
+padding: 40px;
+transition: 0.5s all;
+}
+.images:hover .layer{
+   top: 0;
+
+}.nave{
+    display: flex;
+}
+.nave_cab{
+    width: 0;
+    background-color: black;
+    height: 100vh;
+    padding-top: 10px;
+    /* display: flex; */
+   align-content: space-between;
+    flex-wrap: wrap;
+ display: none;
+}
+.nave_img{
+    width: 50px;
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+a{
+   color: white;
+   text-decoration: none;
+}
+ul{
+    display: none;
+}
+li{
+    margin-top: 10px;
+    color: white;
+}
+.we{
+    margin: 10px;
+    color: white;
+}
+.re{
+    display: none;
+}
+button{
+    border: 0;
+    background-color: rgba(255, 255, 255, 0);
+    color: black;
+    padding: 10;
+}
+.search{
+    display: none;
+}
